@@ -1,4 +1,4 @@
-# AutoFill-Job-Applications(V 1.0.0) <img src="https://image.flaticon.com/icons/svg/3135/3135632.svg" height="50" />
+# AutoFill-Job-Applications(v 1.0.0) <img src="https://image.flaticon.com/icons/svg/3135/3135632.svg" height="50" />
 
 This is a simple chrome extension that can help you fill job application forms quickly. Right now this is aimed at different kinds of sowftware developer roles because i have applied as that and dont know much about other job applications, but will add support for other job profiles too.
 

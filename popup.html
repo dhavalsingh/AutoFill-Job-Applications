@@ -1,0 +1,220 @@
+<html>
+	<meta charset="UTF-8" />
+	<script src="p5.min.js" type="text/javascript"></script>
+	<script src="background.js" type="text/javascript"></script>
+	<link rel="stylesheet" href="main.css" />
+
+	<body>
+		<div>
+			<form action="#">
+				<header>
+					<h2>Auto-Fill Job Applications</h2>
+					<div>Fill your details below</div>
+				</header>
+				<legend><span class="number">1</span> Your Basic Info</legend>
+
+				<div>
+					<label id="title1" for="Field1">First Name</label>
+					<div>
+						<input
+							id="firstName"
+							name="Field1"
+							type="text"
+							class="field text fn"
+							value=""
+							size="8"
+							tabindex="1"
+						/>
+					</div>
+				</div>
+
+				<div>
+					<label id="title1" for="Field2">Last Name</label>
+					<div>
+						<input
+							id="lastName"
+							name="Field2"
+							type="text"
+							class="field text fn"
+							value=""
+							size="8"
+							tabindex="1"
+						/>
+					</div>
+				</div>
+
+				<div>
+					<label id="title3" for="Field3">
+						Email
+					</label>
+					<div>
+						<input
+							id="email"
+							name="Field3"
+							type="email"
+							spellcheck="false"
+							value=""
+							maxlength="255"
+							tabindex="3"
+						/>
+					</div>
+				</div>
+
+				<div>
+					<label id="title3" for="Fieldph">
+						Phone Number
+					</label>
+					<div>
+						<input
+							id="phone"
+							name="Fieldph"
+							type="number"
+							spellcheck="false"
+							value=""
+							maxlength="20"
+							tabindex="3"
+						/>
+					</div>
+				</div>
+
+				<div>
+					<label id="title1" for="FieldA">Address</label>
+					<div>
+						<input
+							id="address"
+							name="FieldA"
+							type="text"
+							class="field text fn"
+							value=""
+							size="255"
+							tabindex="1"
+						/>
+					</div>
+				</div>
+				<div>
+					<label id="title1" for="FieldC">City</label>
+					<div>
+						<input
+							id="city"
+							name="FieldC"
+							type="text"
+							class="field text fn"
+							value=""
+							size="255"
+							tabindex="1"
+						/>
+					</div>
+				</div>
+				<div>
+					<label id="title1" for="FieldZ">Zip code</label>
+					<div>
+						<input
+							id="zip"
+							name="FieldZ"
+							type="number"
+							class="field text fn"
+							value=""
+							size="255"
+							tabindex="1"
+						/>
+					</div>
+				</div>
+				<legend><span class="number">2</span> Social Links</legend>
+				<div>
+					<label id="title1" for="FieldC">LinkedIn URL</label>
+					<div>
+						<input
+							id="linkedin"
+							name="FieldC"
+							type="url"
+							class="field text fn"
+							value=""
+							size="255"
+							tabindex="1"
+						/>
+					</div>
+				</div>
+				<div>
+					<label id="title1" for="FieldG">Github URL</label>
+					<div>
+						<input
+							id="git"
+							name="FieldG"
+							type="url"
+							class="field text fn"
+							value=""
+							size="255"
+							tabindex="1"
+						/>
+					</div>
+				</div>
+				<div>
+					<label id="title1" for="FieldT">Twitter URL</label>
+					<div>
+						<input
+							id="tweet"
+							name="FieldT"
+							type="url"
+							class="field text fn"
+							value=""
+							size="255"
+							tabindex="1"
+						/>
+					</div>
+				</div>
+				<div>
+					<label id="title1" for="FieldF">FaceBook URL</label>
+					<div>
+						<input
+							id="fb"
+							name="FieldF"
+							type="url"
+							class="field text fn"
+							value=""
+							size="255"
+							tabindex="1"
+						/>
+					</div>
+				</div>
+				<div>
+					<label id="title1" for="FieldP">Portfolio URL</label>
+					<div>
+						<input
+							id="port"
+							name="FieldP"
+							type="url"
+							class="field text fn"
+							value=""
+							size="255"
+							tabindex="1"
+						/>
+					</div>
+				</div>
+				<legend><span class="number">3</span> Technical Details</legend>
+				<div>
+					<label class="desc" id="title4" for="Field4">
+						Cover Letter
+					</label>
+
+					<div>
+						<textarea
+							id="cover"
+							name="Field4"
+							spellcheck="true"
+							rows="10"
+							cols="50"
+							tabindex="4"
+						></textarea>
+					</div>
+				</div>
+
+				<div>
+					<div style="text-align: center;">
+						<button id="button">Save my time</button>
+						<p>The average time to fill out a form is usually 5-10 mins</p>
+					</div>
+				</div>
+			</form>
+		</div>
+	</body>
+</html>
